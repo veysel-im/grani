@@ -6,5 +6,24 @@
     border-radius:5px;
     background-color:#808080;
     box-shadow:0 0 2px black;
+    position: absolute;
 
+}
+
+#sayac
+{
+    margin: auto;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px red;
+    background-color: black;
+    z-index: 10000000;
+    opacity: 0.75;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    
 }

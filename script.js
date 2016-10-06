@@ -10,10 +10,15 @@ function yemAt()
     yem1.css("left", Math.floor(Math.random() * window.screen.width));
     yem1.css("background-color", "rgb(" + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + ")");
 
-    
-    yem.style.position = "absolute";
 
     $("#zemin").append(yem);
+
+    var deger=$("#sayac").text();
+    deger=deger-1;
+    deger=deger+2;
+    $("#sayac").text(deger);
+
+
 
 }
 
