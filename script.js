@@ -13,9 +13,8 @@ function yemAt()
 
     $("#zemin").append(yem);
 
-    var deger=$("#sayac").text();
-    deger=deger-1;
-    deger=deger+2;
+    var deger=Number($("#sayac").text());
+    deger++;
     $("#sayac").text(deger);
 
 
